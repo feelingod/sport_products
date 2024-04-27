@@ -1,7 +1,20 @@
 # sport_products
 
 # Руководство системного администратора
+## Запуск и установка
 
+1) Скачайте и установить скрипт ```scripttt.sql``` из папки ```sport_app```
+2) Запустить выполнение скрипта в среде SSMS, указав местоположение местоположение вашей бд в следующих строках на свою:
+   
+   ```
+    N'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\anisimov_sport_products_log.ldf'
+   ```
+   
+   ```
+    N'C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\DATA\anisimov_sport_products_log.ldf'
+   ```
+
+ 3) Поменять ```ConnectionString```, указав в ней свои данные, и запустить приложение 
 ## Общие сведения о программе
 
 ### Назначение программы
